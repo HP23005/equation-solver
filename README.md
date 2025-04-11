@@ -19,4 +19,4 @@
 ```bash
 pip numpy
 pip install --upgrade setuptools pip wheel
-pip install equation-solver
+pip install HP23005UNO
