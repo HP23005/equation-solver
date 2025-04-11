@@ -1,10 +1,12 @@
 from setuptools import setup, find_packages
 
+readme = open("./README.md", "r")
+
 setup(
-    name="equation-solver",
-    version="0.1.0",
+    name="HP23005UNO",
+    version="0.1.1",
     description="Librería para resolver ecuaciones lineales y no lineales con métodos numéricos",
-    long_description=open("README.md", encoding="utf-8").read(),
+    long_description=readme.read(),
     long_description_content_type="text/markdown",
     author="HP23005",
     author_email="hp23005@ues.edu.sv",
